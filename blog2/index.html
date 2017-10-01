@@ -1,0 +1,121 @@
+<html>
+<head>
+	<title>KREAZION </title>
+	<meta name='description' content='Blog content'>
+	<meta name='viewport' content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minumum-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src='js/jquery.min.js'></script>
+
+</head>
+<body>
+	<!-- the general container of the template -->
+<div class='container'>
+	<!-- header begins here -->
+	<header>
+		<div id='logo-menu'>KREAZION </div>
+		<input type='checkbox' id='btn-menu'>
+		<label for='btn-menu'><img src="images/menu.png">
+		</label>
+		<div id='banner'>
+			<div id='banner-left'>KREAZION <br><h6>Kreons ensemble un univers</h6></div>
+			<div id='banner-right-social'>
+				<ul>
+					<li><a href='#'><img src='images/social/facebook.png'></a></li>
+					<li><a href='#'><img src='images/social/twitter.png'></a></li>
+					<li><a href='#'><img src='images/social/instagram.png'></a></li>
+				</ul>
+			</div>
+		</div>
+		<nav class='menu'>
+			<ul>
+				<li><a href='#'>Home</a></li>
+				<li><a href='#'>About</a></li>
+				<li><a href='./ajout/index.html'>Ajouter un article</a></li>
+				<li><a href='./inscription/index.html'>Sign-Up</a></li>
+				<li><a href='./login/index.html'>login</a></li>
+			</ul>
+		</nav>
+		<!-- mobile search view -->
+		<form action='' method='post' id='search_bar'>
+			<input type='text' name='' id='search_text' placeholder='Search'>
+			<input type='button' name='' id='search_button'>
+		</form>
+		<!-- end of mobile search view -->
+	</header>
+	<!-- header ends here -->
+	<!-- main content begins here -->
+	<div id='main'>
+		<div class='content'>
+			<article>
+				<h1>Les programmeurs de LOL</h1>
+				<p>
+  <label class="toggleSwitch large" onclick="">
+        <input type="checkbox" checked />
+        <span>
+            <span>Sauvegarder dans mes archives</span>
+        </span>
+
+    </label>
+</p>
+
+				<div id='slider'>
+					<img src="images/league.jpg" width='100%' height='45%'>
+				</div>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<a href='#'><img src="images/readmore.png"></a>
+				</p>
+			</article>
+
+			<article>
+				<h1>Comment creer un jeux video</h1>
+				<label class="toggleSwitch large" onclick="">
+			        <input type="checkbox" checked />
+			        <span>
+			            <span>Sauvegarder dans mes archives</span>
+			        </span>
+			        <a></a>
+			    </label>
+			</p>
+				<div id='slider'>
+					<img src="images/jeux.jpg" width='100%' height='45%'>
+				</div>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<a href='#'><img src="images/readmore.png"></a>
+				</p>
+			</article>
+
+		</div>
+		<!-- sidebar widget area goes here -->
+		<div class='side'>
+			<form action='' method=''>
+			<input type='text' name='' id='search_text' placeholder='Search'>
+			<input type='button' name='' id='search_button'>
+			</form>
+		</div>
+
+		<!-- end of the last sidebar widget -->
+
+	</div>
+
+</div>
+<script type="text/javascript">
+$('#btn-menu').on('click',function(){
+	$('.menu').toggleClass('show');
+});
+</script>
+
+
+</body>
+</html>

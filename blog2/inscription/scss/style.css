@@ -1,0 +1,10 @@
+.my_background{
+  background-image: url("http://www.motonline-france.com/public/Images/Importance_materiel/9b3d5ac2921ff817ad20222dd9b34290_large.jpeg");
+  background-repeat: no-repeat;
+}
+h1{
+  color: #4e94ab;
+}
+label{
+    color: #4e94ab;
+}
